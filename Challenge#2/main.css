@@ -1,0 +1,30 @@
+#navBar {
+  background-color: #4A2D73;
+  height: 100px;
+  position: fixed;
+  width: 100%;
+  margin: 0;
+}
+#navBar li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 15px;
+  background-color: #93A537;
+  border-radius: 6px;
+  margin-right: 20px;
+}
+
+#navBar a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5em;
+}
+
+#navBar a:hover {
+  color: #FFF7AA;
+}
+
+#navBar li:hover {
+  background-color: #6D256F;
+  border-radius: 6px;
+}
